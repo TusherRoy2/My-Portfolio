@@ -1,0 +1,267 @@
+@media (max-width: 1199px){
+    html {
+        font-size: 55.5%;
+    }
+    .heroArea .heroText p {
+        width: 75%;
+    }
+}
+
+@media (max-width:1100px){
+    .heroArea .heroText h1 {
+        font-size: 6.2rem;
+        font-weight: 700;
+        color: #fff;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .heroArea .heroText p {
+        width: 80%;
+    }
+}
+
+@media (max-width:991px){
+    html {
+        font-size: 50.5%;
+    }
+    .heroArea {
+        padding: 12rem 0 0;
+    }
+    .heroArea .heroText .doubleBtn {
+        text-align: center;
+    }
+    .heroArea .heroImg img{
+        margin: 14rem auto 0;
+    }
+    .heroArea .heroText{
+        text-align: center;
+    }
+    .heroArea .heroText h1 {
+        width: 60%;
+        height: auto;
+        margin: 0 auto 2rem;
+    }
+    .heroArea .heroText p {
+        width: 65%;
+        margin: 0 auto 2rem;
+    }
+    /*  */
+
+    .creativeRight {
+        margin: 5rem auto;
+    }
+    /*  */
+
+    .workImg img {
+        width: 35rem;
+        height: 20rem;
+        margin: 3rem auto;
+    }
+    .workImg .text {
+        left: 28rem;
+    }
+    .workImg .text span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        width: 60%;
+        display: block;
+    }
+    
+}
+
+@media (max-width:768px){
+    html {
+        font-size: 45.5%;
+    }
+
+    .heroArea .heroText h1 {
+        width: 75%;
+        height: auto;
+        margin: 0 auto 2rem;
+    }
+    /*  */
+
+    svg.radial-progress {
+        max-width: 180px;
+    }
+    .skillArea h5 {
+        color: #000000;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    /*  */
+    .workImg .text {
+        left: 20rem;
+    }
+    /*  */
+    .fBtmLine{
+        text-align: center;
+    }
+    .fBtmLine .icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-bottom: 2rem;
+    }
+    .fBtmLine .icon i {
+        color: #fff;
+        font-size: 2rem;
+    }
+    .fBtmLine p {
+        width: 100%;
+    }
+}
+
+@media (max-width:680px){
+    html {
+        font-size: 42.5%;
+    }
+    .workImg .text {
+        left: 23rem;
+    }
+}
+
+@media (max-width:580px){
+    html {
+        font-size: 38.5%;
+    }
+
+    .heroArea .heroText p {
+        width: 70%;
+        margin: 0 auto 2rem;
+    }
+    .heroArea .heroText h1 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 2rem;
+    }
+    /*  */
+
+    svg.radial-progress {
+        max-width: 150px;
+    }
+    /*  */
+
+    .weMake p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+        margin: 0 auto 3rem;
+        width: 95%;
+    }
+    .carousel .item .photo img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .carousel .item .photo .text {
+        position: absolute;
+        bottom: 3rem;
+        left: 5rem;
+    }
+    /*  */
+    .workImg {
+        position: relative;
+        width: 42%;
+        margin: auto;
+    }
+    .workImg .text {
+        left: 2rem;
+    }
+    .weMworkImgake p {
+        width: 95%;
+    }
+    .workImg .text span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        width: 80%;
+        display: block;
+    }
+}
+
+@media (max-width:480px){
+    html {
+        font-size: 35.5%;
+    }
+
+    header nav .menu ul a {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #000000;
+        padding: 0 2rem;
+    }
+    .heroArea .heroText p {
+        width: 80%;
+        margin: 0 auto 2rem;
+    }
+    /*  */
+
+    .workImg {
+        position: relative;
+        width: 50%;
+        margin: auto;
+    }
+    .workImg .text span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        width: 80%;
+        display: block;
+    }
+    
+}
+
+@media (max-width:400px){
+    html {
+        font-size: 32.5%;
+    }
+    .carousel .item .photo img {
+      width: 70%;
+      height: auto;
+      margin: auto;
+    }
+    .carousel .item .photo .text {
+      position: absolute;
+      bottom: 3rem;
+      left: 13rem;
+    }
+    .carousel .item .photo .text h5 {
+        font-size: 3.4rem;
+    }
+    .carousel .item .photo .text span {
+        font-size: 2.4rem;
+        color: #fff;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:380px){
+    .heroArea .heroText h1{
+        font-size: 6rem;
+    }
+    /*  */
+    .workImg {
+        position: relative;
+        width: 55%;
+        margin: auto;
+    }
+    /*  */
+    .articleTitle {
+        display: block;
+        text-align: center;
+    }
+    /*  */
+    footer h2{
+        font-size: 5rem !important;
+    }
+}
